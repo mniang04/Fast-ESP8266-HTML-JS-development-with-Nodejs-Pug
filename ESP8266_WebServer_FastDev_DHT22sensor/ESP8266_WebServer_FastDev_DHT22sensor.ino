@@ -1,13 +1,13 @@
 #include <ESP8266WebServer.h>
-#include <DHT.h>
+//#include <DHT.h>
 #include <Adafruit_BMP085.h>
 #include <FS.h>
 #include <TimeLib.h>
 #include <NtpClientLib.h>
 #include <ArduinoJson.h>
 
-#define ssid      "XXXX"      // WiFi SSID
-#define password  "xxxx"      // WiFi password
+#define ssid      "M_NIANG"      // WiFi SSID
+#define password  "12345670"      // WiFi password
 #define DHTTYPE   DHT22       // DHT type (DHT11, DHT22)
 #define DHTPIN    D4          // Broche du DHT / DHT Pin
 const uint8_t GPIOPIN[4] = {D5,D6,D7,D8};  // Led
